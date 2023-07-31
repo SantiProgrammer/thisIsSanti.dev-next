@@ -1,0 +1,92 @@
+/* Buttons */
+
+
+.button {
+    //border: solid $color-light-gray 2px;
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: hwb(0 0% 100% / 0.205);
+    font-weight: 400;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 50px;
+    margin-top: 10px;
+    width: 200px;
+    opacity: .9;
+    margin: 30px;
+    border: solid rgba(255, 255, 255, 0) 2px;
+    z-index: 999;
+    /*  animation: abajo 1s 1 backwards linear 1.3s; */
+
+
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-dark-gray ;
+        color: white;
+        //border: $color-dark-gray solid 2px;
+        text-decoration: none;
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+
+    /*     body.dark & {
+        border: solid $color-light-gray 2px;
+    } */
+}
+
+.button-about {
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 50px;
+    margin: 30px;
+    width: 200px;
+    border: solid rgba(255, 255, 255, 0) 2px;
+    z-index: 999;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: white;
+        text-decoration: none;
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+.button-white {
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 400;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 50px;
+    margin: 30px;
+    width: 200px;
+    border: solid rgba(255, 255, 255, 0) 2px;
+    z-index: 999;
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: white;
+        //border: $color-dark-gray solid 2px;
+        text-decoration: none;
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}

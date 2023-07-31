@@ -1,0 +1,40 @@
+/** Education **/
+
+.containerSlide {
+  border-radius: 15px;
+  width: 95%;
+  // border: solid 5px $border-color;
+  z-index: 99;
+}
+
+@media (min-width: 600px) {
+  .containerSlide {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .containerSlide {
+    max-width: 700px;
+  }
+}
+
+/* .square-animation-vertical {
+  animation: wipe-enter-vertical 1s 1;
+}
+ */
+/* keyframes wipe-enter */
+
+@keyframes wipe-enter-vertical {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  50% {
+    transform: scale(0.01, 1);
+  }
+}
+
+.certificado {
+  border-radius: 5px;
+}

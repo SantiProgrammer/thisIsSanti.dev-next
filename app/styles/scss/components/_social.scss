@@ -1,0 +1,28 @@
+/** Social media **/
+
+.socialMedia {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    flex-direction: row;
+    animation: fadeInUp 1s;
+}
+
+
+
+.socialMedia a img {
+    width: 50px;
+    margin: 15px;
+    flex-direction: row;
+    transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+    -o-transition: all linear .1s;
+}
+
+.socialMedia a img:hover {
+    transform: scale(1.2);
+}
