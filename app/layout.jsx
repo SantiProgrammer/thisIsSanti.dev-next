@@ -9,11 +9,11 @@ import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+/* export const metadata = {
   title: "ThisIsSanti.dev",
   description: "ThisIsSanti.dev",
 };
-
+ */
 export default function RootLayout({ children }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
