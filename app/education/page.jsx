@@ -1,6 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 
-/* import img from "/public"; */
+/* import Image from "/public"; */
 
 function Education() {
   return (
@@ -74,26 +75,32 @@ function Education() {
               </div>
               <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="4000">
-                  <img
+                  <Image
                     src="https://i.ibb.co/4jPJSMd/carrera-De-Desarrollo-Full-Stack-INGTop10.png"
                     className="d-block w-100 certificado"
                     alt="carreraDesarrolloDeAplicacione-certificado"
+                    width={600}
+                    height={550}
                   />
                   <div className="carousel-caption d-none d-md-block"></div>
                 </div>
                 <div className="carousel-item" data-bs-interval="4000">
-                  <img
+                  <Image
                     src="https://i.ibb.co/zN2mLnJ/carrera-Desarrollo-Front-End-ing.png"
                     className="d-block w-100 certificado"
                     alt="carreraFullStack-certificado"
+                    width={600}
+                    height={550}
                   />
                   <div className="carousel-caption d-none d-md-block"></div>
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
-                  <img
+                  <Image
                     src="https://i.ibb.co/GtXjbtc/636bccb78ae889000efd915d-ing.png"
                     className="d-block w-100 certificado"
                     alt="carreraDesarrolloFront-certificado"
+                    width={600}
+                    height={550}
                   />
                   <div className="carousel-caption d-none d-md-block"></div>
                 </div>

@@ -1,4 +1,4 @@
-import Particles from "@/components/particles";
+import Image from "next/image";
 import Link from "next/link";
 
 const Contact = () => {
@@ -8,9 +8,11 @@ const Contact = () => {
         <section id="contacto">
           <div className="socialMedia">
             <a href="https://www.linkedin.com/in/santidev/" target="_black">
-              <img
+              <Image
                 src="https://cdn-icons-png.flaticon.com/512/1384/1384072.png"
                 alt="Linkedin logo"
+                width={60}
+                height={50}
                 title="Linkedin"
               />
             </a>

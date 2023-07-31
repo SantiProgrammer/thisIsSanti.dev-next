@@ -128,7 +128,10 @@ function Skills() {
         <p className="hover-me">Hover the cubes</p>
         <div className="skills-container">
           {skills.map((skill) => (
-            <div className={`skill-item transition menuitem-${skill.id}`}>
+            <div
+              key={skill.id}
+              className={`skill-item transition menuitem-${skill.id}`}
+            >
               <div className="imageContainer">
                 <Image src={skill.imageSrc} alt={`${skill.name}-image`} fill />
               </div>

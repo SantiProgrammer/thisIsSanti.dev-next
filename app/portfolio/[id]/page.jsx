@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
@@ -109,10 +110,12 @@ const projectDetails = async ({ params }) => {
             <p className="details">Details</p>
             <div className="project-detail-container">
               <div className="project-row">
-                <img
+                <Image
                   className="project-thumbnail"
                   src={project.img}
                   alt="imagen"
+                  width={300}
+                  height={300}
                 />
               </div>
               <div className="project-row">
@@ -120,16 +123,24 @@ const projectDetails = async ({ params }) => {
                   <div className="tech-box">
                     <p>Made with:</p>
                     <p>{project.description}</p>
-                    <div>
+                    <div className="techContainer">
                       {project.tech.map((e) => (
-                        <img src={e} alt="" />
+                        <Image
+                          key={e.id}
+                          src={e}
+                          width={50}
+                          height={50}
+                          alt=""
+                        />
                       ))}
                     </div>
                     <div className="button-box">
                       <Link className="button smallest " href={"/portfolio"}>
-                        <img
+                        <Image
                           src="https://i.ibb.co/cFn92Y6/7etpgol5vni7a29jfbecupgimi.png"
                           alt=""
+                          width={20}
+                          height={20}
                         />
                       </Link>
                       <Link className="button " href={project.url}>
