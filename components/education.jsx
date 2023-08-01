@@ -3,27 +3,35 @@ import Link from "next/link";
 
 const certificates = [
   {
+    id: 1,
     url: "https://i.ibb.co/4jPJSMd/carrera-De-Desarrollo-Full-Stack-INGTop10.png",
   },
   {
+    id: 2,
     url: "https://i.ibb.co/zN2mLnJ/carrera-Desarrollo-Front-End-ing.png",
   },
   {
+    id: 3,
     url: "https://i.ibb.co/GtXjbtc/636bccb78ae889000efd915d-ing.png",
   },
   {
+    id: 4,
     url: "https://i.ibb.co/4jPJSMd/carrera-De-Desarrollo-Full-Stack-INGTop10.png",
   },
   {
+    id: 5,
     url: "https://i.ibb.co/zN2mLnJ/carrera-Desarrollo-Front-End-ing.png",
   },
   {
+    id: 6,
     url: "https://i.ibb.co/GtXjbtc/636bccb78ae889000efd915d-ing.png",
   },
   {
+    id: 7,
     url: "https://i.ibb.co/zN2mLnJ/carrera-Desarrollo-Front-End-ing.png",
   },
   {
+    id: 8,
     url: "https://i.ibb.co/GtXjbtc/636bccb78ae889000efd915d-ing.png",
   },
 ];
@@ -36,8 +44,8 @@ function EducationModule() {
           <h2>Certificates</h2>
           <div className="certificates-container ">
             {certificates.map((e) => (
-              <div className="certificate-item">
-                <Image src={e.url} height={200} width={300}></Image>
+              <div key={e.id} className="certificate-item">
+                <Image src={e.url} height={200} width={300} alt={e.id}></Image>
               </div>
             ))}
           </div>

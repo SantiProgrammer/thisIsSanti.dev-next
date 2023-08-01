@@ -12,7 +12,7 @@ const About = () => {
           <div className="about-wrapper container-md">
             <Image
               src={avatarPic}
-              alt="Picture of the author"
+              alt="Santi Avatar"
               width={150}
               title="Santi Avatar"
             />
@@ -22,7 +22,7 @@ const About = () => {
               taste for experience and user interface design, constantly focused
               on learning new technologies, comitted to developing specialized
               and scalable technology in new projects.
-              <Link className="button-generic" href="/#education">
+              <Link className="button-generic" href="/about/#education">
                 Education
               </Link>
             </p>

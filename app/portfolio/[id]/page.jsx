@@ -130,7 +130,7 @@ const projectDetails = async ({ params }) => {
                           src={e}
                           width={50}
                           height={50}
-                          alt=""
+                          alt="thumbnail"
                         />
                       ))}
                     </div>
@@ -138,7 +138,7 @@ const projectDetails = async ({ params }) => {
                       <Link className="button smallest " href={"/portfolio"}>
                         <Image
                           src="https://i.ibb.co/cFn92Y6/7etpgol5vni7a29jfbecupgimi.png"
-                          alt=""
+                          alt="go-back"
                           width={20}
                           height={20}
                         />
