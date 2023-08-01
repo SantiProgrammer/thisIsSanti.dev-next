@@ -143,7 +143,7 @@ const projectDetails = async ({ params }) => {
                           height={20}
                         />
                       </Link>
-                      <Link className="button " href={project.url}>
+                      <Link className="boton" href={project.url}>
                         Visit
                       </Link>
                     </div>
