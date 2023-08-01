@@ -1,3 +1,4 @@
+import Particles from "@/components/particles";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,16 +12,17 @@ const Contact = () => {
               <Image
                 src="https://cdn-icons-png.flaticon.com/512/1384/1384072.png"
                 alt="Linkedin logo"
-                width={60}
+                width={50}
                 height={50}
                 title="Linkedin"
               />
             </a>
           </div>
-          <Link href="/" className="button-about transition menuitem-8">
+          <Link href="/" className="button-generic back-home">
             🔙 Home
           </Link>
         </section>
+        <Particles />
       </div>
     </>
   );

@@ -1,26 +1,26 @@
 /* Base */
-@import "./base/reset";
-@import "../scss/base/body";
-@import "../scss/base/variables";
-@import "../scss/base/keyframes";
-@import "../scss/base/fonts";
-@import "../scss/base/mixins";
-@import "../scss/base/extends";
-@import "../scss/base/mapas";
+@import "./base/_reset";
+@import "../scss/base/_body";
+@import "../scss/base/_variables";
+@import "../scss/base/_keyframes";
+@import "../scss/base/_fonts";
+@import "../scss/base/_mixins";
+@import "../scss/base/_extends";
+@import "../scss/base/_mapas";
 
 /* Componentes */
 
-@import "../scss/components/sections";
-@import "../scss/components/navbar";
-@import "../scss/components/buttons";
-@import "../scss/components/about";
-@import "../../education/styles/education";
-@import "../scss/components/social";
-@import "../scss/components/index";
-@import "../../skills/styles/skills";
-@import "../../portfolio/styles/portfolio";
-@import "../scss/components/contact";
-@import "../scss/components/TrackID";
-@import "../scss/components/wallpaper";
-@import "../scss/components/theme";
-@import "../../portfolio/[id]/styles/projectDetail";
+@import "../scss/components/_sections";
+@import "../scss/components/_navbar";
+@import "../scss/components/_buttons";
+@import "../scss/components/_pageMain";
+@import "../scss/components/_TrackID";
+@import "../scss/components/_wallpaper";
+@import "../../about/about";
+/* @import "../../education/education"; */
+@import "../../education/_test";
+@import "../../skills/_skills";
+@import "../../portfolio/_portfolio";
+
+@import "../../portfolio/[id]/_projectDetail";
+/* @import "../../contact/contact.scss"; */

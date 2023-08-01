@@ -98,7 +98,10 @@ const Portfolio = () => {
               </div>
             ))}
           </div>
-          <Link className="button-about transition menuitem-8" href="/contact">
+          <Link
+            className="button-generic transition menuitem-8"
+            href="/contact"
+          >
             Go contact
           </Link>
         </section>

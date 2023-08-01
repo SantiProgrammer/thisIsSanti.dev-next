@@ -32,7 +32,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navigation />
         {children}
-        {<Particles />}
       </body>
     </html>
   );

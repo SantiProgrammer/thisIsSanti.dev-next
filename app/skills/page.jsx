@@ -146,7 +146,10 @@ function Skills() {
             </div>
           ))}
         </div>
-        <Link href="/portfolio" className="button-about transition menuitem-13">
+        <Link
+          href="/portfolio"
+          className="button-generic transition menuitem-13"
+        >
           Portfolio
         </Link>
 

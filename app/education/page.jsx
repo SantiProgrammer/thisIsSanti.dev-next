@@ -131,7 +131,7 @@ function Education() {
               </button>
             </div>
           </div>
-          <Link className="button-white" href="/skills">
+          <Link className="button-generic education" href="/skills">
             Skills
           </Link>
           {/* <Particles /> */}

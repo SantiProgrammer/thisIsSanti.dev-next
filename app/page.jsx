@@ -1,3 +1,4 @@
+import Particles from "@/components/particles";
 import Link from "next/link";
 
 const IndexPage = async () => {
@@ -29,10 +30,11 @@ const IndexPage = async () => {
           </h1>
           <p className="JS-title">Java Script</p>
 
-          <Link className="button" href="/about">
+          <Link className="button-generic" href="/about">
             About
           </Link>
         </section>
+        <Particles />
       </div>
     </>
   );

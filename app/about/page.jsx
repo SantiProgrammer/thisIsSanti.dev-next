@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import avatarPic from "/public/img/avatar.webp";
+import EducationModule from "@/components/education";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <div className="div-animation">
         <section id="about">
           {/* <h2>Materializing ideas</h2> */}
-          <div className="about-wrapper">
+          <div className="about-wrapper container-md">
             <Image
               src={avatarPic}
               alt="Picture of the author"
@@ -22,12 +22,13 @@ const About = () => {
               taste for experience and user interface design, constantly focused
               on learning new technologies, comitted to developing specialized
               and scalable technology in new projects.
-              <Link className="button-about" href="/education">
+              <Link className="button-generic" href="/#education">
                 Education
               </Link>
             </p>
           </div>
         </section>
+        <EducationModule id="education" />
       </div>
     </>
   );
